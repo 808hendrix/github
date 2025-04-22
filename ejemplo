@@ -1,0 +1,20 @@
+# Promedio 3 notas
+# print("ingrese 3 notas")
+# n1,n2,n3=float(input()),float(input()),float(input())
+# prom=(n1+n2+n3)/3
+# print("su promedio es", round(prom,2))
+# if prom<=4:
+#     print("usted no ha aprobado")
+# else :
+#     print("usted ha aprobado")
+
+edad=int(input("ingrese su edad"))
+
+if edad<12:
+    print("usted es un niño")
+elif edad>=12 and edad<=17:
+    print("usted es adolescente")
+elif edad>=18 and edad<=64:
+    print("usted es un adulto")
+
+else: print("usted es un adulto mayor")
