@@ -27,7 +27,7 @@ for i in range(personas):
 
 print("El total de votos de chysteMC es", ChysteMC)
 print("El total de votos de DR.Bene es", DRBene)
-        
+            
 print("El total de votos de Bruto CHR es", BrutoCHR)
 print("El total de votos es", ChysteMC + DRBene + BrutoCHR)
         
