@@ -14,8 +14,7 @@ if i in "aeiou":
     vocales+=1
 else:
     cons+=1
-
-
-    print ("la cantidad de vocales es", vocales)
-    print("la cantidad de caracteres es", cont)
-    print("la cantidad de consonantes es", cons)
+ 
+       print ("la cantidad de vocales es", vocales)
+        print("la cantidad de caracteres es", cont)
+        print("la cantidad de consonantes es", cons)
