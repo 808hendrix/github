@@ -10,7 +10,8 @@ for i in range(cantsobres):
         print("1.-Sobre Pokemon ($5000)")
         print("2.-Sobre yu-gi-oh($4.500)")
         print("3.-Sobre MyL($3000)")
-        print("4.-Salir")
+        print("4.-Salir y mostrar total")
+        
         opcion=int(input("ingrese su opcion: "))   
         match opcion:
             case 1:
