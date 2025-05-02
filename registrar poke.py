@@ -5,7 +5,7 @@ op,opc = int, int
 htf,htp,hta,hte,hth,htl,htr = str, str, str, str, str, str,str
 htf=["Anillo ígneo","Ascuas","Balón ígneo","Bomba ígnea","Cabeza sorpresa","Calcinación","Canto ardiente","Cañón armadura","Cólera ardiente","Colmillo ígneo","Coraza trampa","Danza llama","Día soleado","Envidia ardiente","Envite ígneo","Erupción de ira","Espada lamento","Estallido","Flarembestida","Fuego fatuo","Fuego sagrado","Giro fuego","Golpe calor","Humareda","Infierno","Lanzallamas","Látigo ígneo","Llama azul","Llama embrujada","Llama final","Llama fusión","Llama protectora","Llamarada","Lluvia ígnea","Nitrocarga","Onda ígnea","Patada ígnea","Pirochoque","Pirotecnia","Puño fuego","Rueda fuego","Sofoco","V de fuego","Voto fuego"]
 htr=["Alquitranazo","Antiaéreo","Avalancha","Filo potente","Hachazo pétreo","Joya de luz","Lanzarrocas","Pedrada","Poder pasado","Pulimento","Rayo meteórico","Roca afilada","Roca veloz","Rodar","Romperrocas","Salazón","Testarazo","Tormenta de are","Tormenta de diamantes","Trampa rocas","Tumba rocas","Vasta guardia"]
-
+random_ability=random.choice(htf)
 
 
 
@@ -55,7 +55,7 @@ while op!=4:
                     print("aprendiendo una habiliad al azar...")
                     time.sleep(3)
                     print("¡felicidades!",npoke,"acaba de aprender",random.choice(htf),"¡una habilidad excepcional para los tipo Fuego!")
-                    htf=htf+htf
+                    
                 case 3:
                     print("aprendiendo una habiliad al azar...")
                     time.sleep(3)
@@ -84,4 +84,4 @@ while op!=4:
             print("El peso es"),ppoke
             print("El id es",idpoke)
             print("El tipo de pokemon es"),tpoke
-            print("la hablidad/es del pokemon son")
+            print("la hablidad/es del pokemon son"), chosen_ability
